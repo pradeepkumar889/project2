@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Merger</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Merge Photos into One Frame</h1>
+        <form id="uploadForm">
+            <label for="photos">Select Photos:</label>
+            <!-- Add "multiple" attribute to allow multiple selections -->
+            <input type="file" id="photos" name="photos" accept="image/*" multiple>
+            <button type="submit">Merge Photos</button>
+        </form>
+        <div id="preview"></div> <!-- Div to display selected image previews -->
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
